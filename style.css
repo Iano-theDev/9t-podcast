@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+height:100%;
+width:100%;
+font-family: 'poppins', sans-serif;
+color: #222;
+}
+/*navbar*/
+
+.navbar {
+padding: .8rem;
+}
+.navbar-nav li {
+padding-right: 20px;
+}
+.nav-link {
+font-size: 1.1em !important;
+}
+
+.navbar-brand {
+  font-size:35px;
+  }
+  
+.logo {
+  font-size:15px;
+  }
+
+/*carousel*/
+
+.carousel-caption {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+bottom: auto;
+}
+
+.carousel-caption h1 {
+text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.padding {
+padding-bottom: 2rem;
+}
+
+
+/*footer*/
+footer {
+background: linear-gradient(to top right, #262626 70%, #dbdf09 30%);
+color: #D5D5D5;
+padding-top: 2rem;
+}
+
+footer.blockquote-footer {
+background: none;
+}
+
+
+/*---Media Queries --*/
+
+
+
+@media (max-width: 992px) {
+
+.social a {
+	font-size:4em;
+	padding:2rem;
+}
+.carousel-caption h1 {
+font-size: 200%;
+}
+  
+.display-4 {
+font-size: 200%;
+}
+
+@media (max-width: 768px) {
+
+.carousel-caption {
+top: 45%;
+}
+.carousel-caption h1 {
+font-size: 150%;
+}
+  
+.display-4 {
+font-size: 150%;
+}
+
+p.lead {
+font-size: 110%;
+}
+
+.social a {
+font-size: 2.5em;
+padding: 1.2rem;
+}
+
+footer {
+padding-top: 1rem;
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+.carousel-caption {
+top: 40%;
+}
+
+.carousel-caption h1 {
+font-size: 130%;
+}
+  
+.display-4 {
+font-size: 130%;
+}
+
+.social a {
+font-size: 2em;
+padding: .7rem;
+}
+
+
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
